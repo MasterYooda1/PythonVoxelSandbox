@@ -8,7 +8,7 @@ WIN_RES = glm.vec2(1600, 900)
 
 # Camera
 ASPECT_RATIO = WIN_RES.x / WIN_RES.y
-FOV_DEG = 50
+FOV_DEG = 89
 V_FOV = glm.radians(FOV_DEG)
 H_FOV = 2 * math.atan(math.tan(V_FOV * 0.5) * ASPECT_RATIO)
 NEAR = 0.1
